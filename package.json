@@ -7,5 +7,46 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
+  "commit-and-tag-version": {
+    "skip": {
+      "commit": true
+    },
+    "types": [
+      {
+        "type": "feat",
+        "section": "Features:"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "chore",
+        "section": "Chore: Maintenance",
+        "hidden": false
+      },
+      {
+        "type": "docs",
+        "section": "Documentation:",
+        "hidden": false
+      },
+      {
+        "type": "style",
+        "hidden": false
+      },
+      {
+        "type": "refactor",
+        "hidden": false
+      },
+      {
+        "type": "perf",
+        "hidden": false
+      },
+      {
+        "type": "test",
+        "hidden": false
+      }
+    ]
+  },
   "license": "ISC"
 }
